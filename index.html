@@ -1,48 +1,238 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
+<html lang="en">
 
-<body>
-  <h1>Karl Suaco</h1>
-  <img src="https://bit.ly/2PsD8rA" alt="Totoro" height="400" width="400"/>
-  <h3>About Me</h3>
-  <p>
-  I am taking Data Analytics Bootcamp.
-  </p>
-  <h3>Social Media Pages:</h3>
-  <ul>
-    <li><a href ="https://twitter.com/osx_karl">Twitter</a></li>
-    <li><a href="https://github.com/xarkl/UCI-Data-Analytics.git">GitHub</a></li>
-  </ul>
-  <table>
-    <tr>
-      <th>Movies</th>
-      <th>Artists</th>
-      <th>TV Shows</th>
-    </tr>
-    <tr>
-      <td>Crazy Rich Asians</td>
-      <td>Kaskade</td>
-      <td>Schitt's Creek</td>
-    </tr>
-    <tr>
-      <td>Black Panther</td>
-      <td>Illenium</td>
-      <td>Friends</td>
-    </tr>
-    <tr>
-      <td>Mean Girls</td>
-      <td>Porter Robinson</td>
-      <td>Grey's Anatomy</td>
-    </tr>
-  </table>
-  <div>
-    <h2>Web Homework</h2>
-    <p>Link to Web Homework: <a href="Homework/index.html">Weather Dashboard</a></p>
-  </div>
-</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Karl Suaco</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Karl Suaco</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Skills + Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Karl Suaco</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skills and Tools</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
+              <h3 class="mb-3">Programming</h3>
+              <p class="text-muted mb-0">Python, Numpy, Pandas, Matplotlib, API Interactions, Social Media Mining, Vader Sentiment Analysis</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-database text-primary mb-3 sr-icon-2"></i>
+              <h3 class="mb-3">Databases</h3>
+              <p class="text-muted mb-0">MySQL, MongoDB, Sqlite3, NoSql</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
+              <h3 class="mb-3">Front-End Web Visualization</h3>
+              <p class="text-muted mb-0">HTML, CSS, Bootstrap, JavaScript, D3.js, Dashboarding, Plotly</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
+              <h3 class="mb-3">Business Intelligence Software</h3>
+              <p class="text-muted mb-0">Tableau, Machine Learning, Big Data with Hadoop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Projects</h2>
+                <hr class="my-4">
+              </div>
+            </div>
+          </div>
+          <br>
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" target="_blank" href="Latitude/index.html">
+              <img class="img-fluid" src="img/portfolio/thumbnails/rainbow.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Weather by Latitude
+                  </div>
+                  <div class="project-name">
+                    Observe weather patterns using OpenWeatherMap API and Python libraries.
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" target="_blank" href="https://github.com/xarkl/UCI-Data-Analytics/tree/master/Homework07-Social-Analytics">
+              <img class="img-fluid" src="img/portfolio/thumbnails/8.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Social Analytics
+                  </div>
+                  <div class="project-name">
+                    Analyze tweet sentiments of news outlets.
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" target="_blank" href="https://github.com/xarkl/UCI-Data-Analytics/tree/master/Homework05-Matplotlib">
+              <img class="img-fluid" src="img/portfolio/thumbnails/pyber.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Pyber
+                  </div>
+                  <div class="project-name">
+                    Analysis on cab rides and drivers using Matplotlib for visuablization.
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="section-heading">Contact Me</h2>
+              <hr class="my-4">
+             <br><br>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-lg ml-auto text-center">
+              <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+              <p>949-351-9764</p>
+            </div>
+            <div class="col-lg ml-auto text-center">
+                <a target="_blank" href="https://github.com/xarkl"><i class="fab fa-github fa-3x mb-3 sr-contact-1"></i></a>
+              </div>
+            <div class="col-lg mr-auto text-center">
+                 <a target="_blank" href="https://www.linkedin.com/in/karlsuaco/"> <i class="fab fa-linkedin-in fa-3x mb-3 sr-contact-2"></i></a>
+                 
+                </div>  
+            <div class="col-lg mr-auto text-center">
+              <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+              <p>
+                <a href="mailto:karlsuaco@gmail.com">karlsuaco@gmail.com</a>
+              </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
 
 </html>
